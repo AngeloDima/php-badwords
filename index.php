@@ -18,10 +18,12 @@ $censoredLenght = strlen($censoredParagrafo);
 
 
 <div>
-    <h3>Parola: </h3>              <p><?= $paragrafo ?></p> 
-    <h3>lunghezza parola: </h3>    <p><?= $lunghezza ?></p>
-    <h3>Parola dell'utente</h3>    <p><?= $ParolaUtente ?></p>
-    <h3>Parola censurata</h3>      <p><?= $censoredParagrafo ?></p>
+    <h3>Parola: </h3>                           <p><?= $paragrafo ?></p> 
+    <h3>lunghezza parola: </h3>                 <p><?= $lunghezza ?></p>
+    <h3>Parola dell'utente:</h3>                <p><?= $ParolaUtente ?></p>
+    <h3>Parola censurata:</h3>                  <p><?= $censoredParagrafo ?></p>
+    <h3>lunghezza parola Censurata:</h3>        <p><?= $censoredLenght ?></p>
+
 </div>
 
 
